@@ -28,3 +28,6 @@ To set up the project locally, follow these steps:
 3. Start React Server
    ```bash
    npm start
+
+
+![Home Page](./images/home.jpg)
