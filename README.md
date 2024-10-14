@@ -7,7 +7,7 @@ This project is part of Inter IIT 12.0 and focuses on developing a decentralized
 ## Features
 
 - **Music Uploads**: Users can easily upload their tracks.
-- **Likes and Tips**: Users can express their appreciation through likes and tips.
+- **Likes and Tips**: Users can express their appreciation through likes and tips(cryopo transfer).
 - **Interactive Interface**: A user-friendly frontend to enhance interaction.
 
 ## Project Structure
