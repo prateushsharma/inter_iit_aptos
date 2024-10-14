@@ -30,4 +30,4 @@ To set up the project locally, follow these steps:
    npm start
 
 
-![Home Page](./images/home.jpg)
+![Home Page](images/home.jpg)
