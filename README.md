@@ -29,6 +29,7 @@ To set up the project locally, follow these steps:
    ```bash
    npm start
 
-
+#Home Page
 ![Home Page](images/home.jpg)
+#Earnings Page
 ![Earninga Page](images/tip.jpg)
