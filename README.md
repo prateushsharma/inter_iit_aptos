@@ -4,3 +4,8 @@ In my dapp i have made this feature,except advertisment one
 
 ## In move folder ,apots move smart contract is there 
 ## in src the front end and interaction files are there
+
+### to run 
+## git clone 
+## npm install
+## npm start
