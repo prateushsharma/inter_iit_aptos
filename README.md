@@ -22,4 +22,9 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/prateushsharma/inter_iit_aptos.git
-```
+2. Install Dependencies
+   ```bash
+   npm install
+3. Start React Server
+   ```bash
+   npm start
