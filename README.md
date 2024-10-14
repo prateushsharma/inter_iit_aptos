@@ -6,6 +6,6 @@ In my dapp i have made this feature,except advertisment one
 ## in src the front end and interaction files are there
 
 ### to run 
-## git clone 
+## git clone https://github.com/prateushsharma/inter_iit_aptos.git
 ## npm install
 ## npm start
