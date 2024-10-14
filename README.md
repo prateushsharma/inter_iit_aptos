@@ -1,11 +1,25 @@
-# This project comes under Inter IIT 12.0 PS APTOS ON CHAIN RADIO
-## In PS it was asked to make a dapp where user can upload there music and people can like it,pay tips and advertisement can run on trensing videos
-In my dapp i have made this feature,except advertisment one
+# Inter IIT 12.0: PS Aptos On Chain Radio
 
-## In move folder ,apots move smart contract is there 
-## in src the front end and interaction files are there
+## Project Overview
 
-### to run 
-## git clone https://github.com/prateushsharma/inter_iit_aptos.git
-## npm install
-## npm start
+This project is part of Inter IIT 12.0 and focuses on developing a decentralized application (DApp) that allows users to upload their music. In this DApp, users can like tracks, tip their favorite artists, and engage with trending videos. Note that advertising features are not included in this version.
+
+## Features
+
+- **Music Uploads**: Users can easily upload their tracks.
+- **Likes and Tips**: Users can express their appreciation through likes and tips.
+- **Interactive Interface**: A user-friendly frontend to enhance interaction.
+
+## Project Structure
+
+- **Move Folder**: Contains the Aptos Move smart contract.
+- **src Folder**: Includes all frontend and interaction files.
+
+## Getting Started
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prateushsharma/inter_iit_aptos.git
+```
