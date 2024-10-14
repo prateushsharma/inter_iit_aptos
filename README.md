@@ -34,3 +34,5 @@ To set up the project locally, follow these steps:
 ![Home Page](images/home.jpg)
 # Earnings Page
 ![Earninga Page](images/tip.jpg)
+# Upload Page
+![upload page](images/upload.jpg)
