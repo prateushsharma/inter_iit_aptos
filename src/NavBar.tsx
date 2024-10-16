@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { AptosWalletAdapterProvider } from "@aptos-labs/wallet-adapter-react";
-import { PetraWallet } from "petra-plugin-wallet-adapter";
-const wallets = [new PetraWallet()];
+import { useWallet } from "@aptos-labs/wallet-adapter-react";
+
 const Navbar = () => {
+  const { account } = useWallet();
+  const address = account?.address;
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
@@ -20,22 +22,27 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
-          <ul className="navbar-nav me-auto">
+          {/* First ul for navigation links */}
+          <ul className="navbar-nav">
             <li className="nav-item">
-              {/* Apply 'btn btn-light' classes to Home link */}
               <Link className="nav-link btn btn-light" to="/app2">Home</Link>
             </li>
-           
             <li className="nav-item">
-              {/* Apply 'btn btn-light' classes to Upload link */}
-              <Link className="nav-link btn btn-light" to="/upload">upload</Link>
+              <Link className="nav-link btn btn-light" to="/upload">Upload</Link>
             </li>
             <li className="nav-item">
-              {/* Apply 'btn btn-light' classes to Upload link */}
               <Link className="nav-link btn btn-light" to="/earnings">Earnings</Link>
             </li>
           </ul>
           
+          {/* Second ul for address and future buttons, aligned to the right */}
+          <ul className="navbar-nav ms-auto ">
+            <li className="nav-item">
+              <div className="nav-link btn btn-light">
+                {address?.substring(0,20)}
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
