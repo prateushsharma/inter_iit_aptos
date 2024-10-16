@@ -1,6 +1,7 @@
 # Inter IIT 12.0: PS Aptos On Chain Radio
 
 ## Presentation Link [PPT Link](https://docs.google.com/presentation/d/1DWgt6n41SCE1uTi_qEYooIsfHtWrq2lC/edit?usp=sharing&ouid=114165480588567319258&rtpof=true&sd=true)
+## Presentation Link [PPT Link](https://www.canva.com/design/DAGTpkeW6Hw/ef1LLAE-T0-qGR14xxkvsw/edit?utm_content=DAGTpkeW6Hw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Project Overview
 
