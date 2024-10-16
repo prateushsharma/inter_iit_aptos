@@ -33,6 +33,9 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link btn btn-light" to="/earnings">Earnings</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link btn btn-light" to="/trending">Trendings</Link>
+            </li>
           </ul>
           
           {/* Second ul for address and future buttons, aligned to the right */}

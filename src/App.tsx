@@ -7,6 +7,7 @@ import App2 from './App2.tsx';
 import Upload from './Upload.tsx';
 import Earnings from './Earnings.tsx';
 import PlaylistPage from './PlaylistPage.tsx';
+import TrendingAudioMarketplace from './Trending.tsx';
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/upload" element={<Upload />} /> 
         <Route path="/earnings" element={<Earnings />} /> 
         <Route path="/playlistpage" element={<PlaylistPage />} />{/* Route for App2 (Upload) */}
+        <Route path="/trending" element={<TrendingAudioMarketplace />} />
       </Routes>
     </Router>
   );
