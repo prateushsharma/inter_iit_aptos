@@ -212,6 +212,7 @@ console.log(isInitialized);
             
             <Row gutter={[24, 24]} className="audio-grid">
               {images.map((audio, index) => (
+               
                 <Col xs={24} sm={12} md={8} lg={8} key={audio.id}>
                   <Card
                     className={`audio-card card-${index % 5}`}
@@ -234,9 +235,16 @@ console.log(isInitialized);
                       <Text className="tips">{`💰 ${audio.tipsReceived} APT`}</Text>
                     </div>
                     <div className="audio-actions">
-                      <Button onClick={() => likeImage(audio.id)} className="like-btn">
+                      
+                    <Button 
+                      onClick={() => likeImage(audio.id)} 
+                      className="like-btn" 
+                     // Use 'disabled' instead of 'disable'
+                      >
                         Like
+                       
                       </Button>
+
                       <div className="tip-action">
                         <Input
                           type="number"
@@ -244,8 +252,9 @@ console.log(isInitialized);
                           onChange={(e) => setTipAmount(Number(e.target.value))}
                           placeholder="Tip"
                           className="tip-input"
+                          
                         />
-                        <Button onClick={() => tipImage(audio.id)} className="tip-btn">
+                        <Button onClick={() => tipImage(audio.id)} className="tip-btn" >
                           Tip
                         </Button>
                       </div>
