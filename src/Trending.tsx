@@ -145,14 +145,18 @@ export default function TrendingAudioMarketplace() {
         })
       );
       const audioInfos = await Promise.all(audioPromises);
-      const sortedAudios = audioInfos.map((info, index) => ({
+      const sortedAudios = audioInfos
+      .map((info, index) => ({
         id: audioIds[index],
         owner: info[0],
         ipfsHash: info[1],
         description: info[2],
         likes: Number(info[3]),
-        tipsReceived: Number(info[4])
-      })).sort((a, b) => b.likes - a.likes);
+        tipsReceived: Number(info[4]),
+      }))
+      .filter(audio => audio.likes > 0) // Keep audios with likes greater than 0
+      .sort((a, b) => b.likes - a.likes); // Sort by likes in descending order
+    
       setAudios(sortedAudios);
     } catch (error: any) {
       console.error("Error fetching audios:", error);
