@@ -1,5 +1,8 @@
 # Inter IIT 12.0: PS Aptos On Chain Radio
 
+## Presentation Link [PPT Link](https://docs.google.com/presentation/d/1DWgt6n41SCE1uTi_qEYooIsfHtWrq2lC/edit?usp=sharing&ouid=114165480588567319258&rtpof=true&sd=true)
+## Presentation Link [PPT Link](https://www.canva.com/design/DAGTpkeW6Hw/ef1LLAE-T0-qGR14xxkvsw/edit?utm_content=DAGTpkeW6Hw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Project Overview
 
 This project is part of Inter IIT 12.0 and focuses on developing a decentralized application (DApp) that allows users to upload their music. In this DApp, users can like tracks, tip their favorite artists, and engage with trending videos. Note that advertising features are not included in this version.
