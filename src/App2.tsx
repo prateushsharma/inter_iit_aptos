@@ -9,7 +9,7 @@ import { AptosWalletAdapterProvider } from "@aptos-labs/wallet-adapter-react";
 const wallets = [new PetraWallet()];
 const { Text } = Typography;
 const aptos = new Aptos();
-const moduleAddress = "bda589a2cf465ca89de6768c009a21b00673f88e9eef3a377d89f7d087453491";
+const moduleAddress = "0xbda589a2cf465ca89de6768c009a21b00673f88e9eef3a377d89f7d087453491";
 
 function App() {
   const { account, signAndSubmitTransaction } = useWallet();
