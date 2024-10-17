@@ -16,7 +16,7 @@ const Upload = () => {
   const [ipfsHash, setIpfsHash] = useState<string>("");
   const [description, setDescription] = useState<string>("");
   const [transactionInProgress, setTransactionInProgress] = useState<boolean>(false);
-  const moduleAddress = "68596da6c295086e8d125b4689e96a9532cc81f0b6ac9dc9913436c884d49081";
+  const moduleAddress = "bda589a2cf465ca89de6768c009a21b00673f88e9eef3a377d89f7d087453491";
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
